@@ -4,9 +4,9 @@ $warning-color:       #e64c66;
 $warning2-color:      #cc324c;
 
 $design-color:        #10a8ab;
-$design2-color:       #e64c66;
 $design2-color:       #ffaf33;
 
+$ico-color:           #8c94b8;
 $bg-color:            #1f253d;
 
 $white-color:         #ffffff;
@@ -18,9 +18,11 @@ $text-color:          $white-color;
 
 $transparent-color:   rgba(255, 255, 255, 0);
 
-$font-family:         -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+$font-family:         Ubuntu, Arial, Roboto, 'Helvetica Neue', sans-serif;
 $font-size:           14px;
 $line-height:         1.4;
+
+$gap-lg:              24px;
 
 $screen-xs:           480px;
 $screen-sm:           768px;

@@ -1,0 +1,32 @@
+.user-card-stat-item {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: $text-color;
+  height: 60px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  background-color: $active-color;
+
+  &:not(:last-of-type) {
+    margin-right: 1px;
+  }
+
+  &__ico {
+    margin-right: 10px;
+    color: $ico-color;
+  }
+
+  &--posts {
+    border-top-color: $warning-color;
+  }
+
+  &--views {
+    border-top-color: $design-color;
+  }
+
+  &--likes {
+    border-top-color: $design2-color;
+  }
+}

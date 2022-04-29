@@ -1,6 +1,16 @@
+@import 'all';
+//@import "node_modules/fontawesome-free/css/all.min";
+
 @import 'fonts';
 @import 'variables';
 @import 'mixins';
 
 @import 'blocks/page';
-@import 'blocks/popup';
+@import 'blocks/header';
+@import 'blocks/main-nav';
+@import 'blocks/user-block';
+@import 'blocks/menu-box';
+@import 'blocks/menu-box-item';
+@import 'blocks/user-card';
+@import 'blocks/user-card-stat-item';
+@import 'blocks/subscribe-block';

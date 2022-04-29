@@ -1,0 +1,10 @@
+.subscribe-block
+  h2.subscribe-block__title Join the newsletter
+  form#subscribe-form.subscribe-block__form(method='POST', action='')
+    label.subscribe-block__input-label(for='subscribe-email-input')
+      i.far.fa-envelope.fa-lg.subscribe-block__input-ico
+      input#subscribe-email-input.subscribe-block__input(
+        type='email',
+        placeholder='Enter your email',
+        name='subscribe-email-input')
+    button.subscribe-block__subscribe-btn(type='submit') Subscribe

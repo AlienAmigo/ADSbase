@@ -1,0 +1,28 @@
+.menu-box {
+  @include autoflow-column-block;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &__title {
+    @include block-title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: $design-color;
+  }
+
+  &__items-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+  }
+}

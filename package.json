@@ -62,7 +62,6 @@
   },
   "dependencies": {
     "cpy": "^8.1.2",
-    "fontawesome-free": "^1.0.4",
     "gulp.spritesmith": "^6.12.1",
     "merge-stream": "^2.0.0",
     "module": "^1.2.5",

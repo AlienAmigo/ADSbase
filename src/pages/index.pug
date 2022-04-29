@@ -1,20 +1,14 @@
 extends ../pug/layout.pug
 
 block meta
-  title Главная
+  title Account
   meta(name='description', content='')
 
-//- block append head
-//-   link(rel='stylesheet', href='css/some.css')
-
 block header
-  p Лого
+  include ../pug/blocks/header.pug
 
 block content
-  h1 Заголовок
-
-//- block footer
-//-   p footer
-
-//- block append page-bottom
-//-   script(src='js/some.js')
+  main.page__content-wrapper
+    include ../pug/blocks/menu-box.pug
+    include ../pug/blocks/user-card.pug
+    include ../pug/blocks/subscribe-block.pug

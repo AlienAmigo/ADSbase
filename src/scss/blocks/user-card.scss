@@ -1,0 +1,59 @@
+.user-card {
+  @include autoflow-column-block();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: max-content;
+  background-color: $main-color;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &__plus-btn {
+    @include hover();
+    position: absolute;
+    top: 12px;
+    right: 11px;
+    border: none;
+    background-color: $transparent-color;
+    color: $ico-color;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  &__pic {
+    align-self: center;
+    width: 162px;
+    height: 162px;
+    margin-top: 42px;
+    border-radius: 50%;
+    border: 7px solid $active-color;
+  }
+
+  &__pic-img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  &__title {
+    margin: 30px 20px 25px;
+    color: $text-color;
+    text-align: center;
+  }
+
+  &__descr {
+    max-width: 220px;
+    margin: 0 0 37px;
+    text-align: center;
+    color: $ico-color;
+  }
+
+  &__statistic {
+    display: flex;
+    width: 100%;
+    list-style: none;
+  }
+}

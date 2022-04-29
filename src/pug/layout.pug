@@ -2,7 +2,7 @@
 include mixins.pug
 
 doctype html
-html(class='page  no-js', lang='ru')
+html(class='page  no-js', lang='en')
 
   head
     meta(charset='utf-8')
@@ -42,11 +42,6 @@ html(class='page  no-js', lang='ru')
         block content
           p Cодержимое
 
-      .page__footer-wrapper
-        block footer
-          p Подвал
 
-    block templates
     block page-bottom
-      script(src='js/vendors.min.js')
       script(src='js/script.min.js')
